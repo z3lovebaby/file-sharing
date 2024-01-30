@@ -1,0 +1,2 @@
+he current context, it is still possible some code to be executed, like $(shell) syntax in the makefile or recursive invocations of the $(MAKE) variable.
+If you don't feel comfortable allowing this configure process and 'make --dry-run' to be invoked by the extension, you can chose a recent full, clean, verbose and up-to-date build log as an alternative, via the setting 'makefile.buildLog'.

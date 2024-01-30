@@ -1,0 +1,6 @@
+5
+alice:file1.txt:
+alice:file2.txt:
+bob:document.pdf:
+hust:hhh.txt:
+hust:ex1.txt:

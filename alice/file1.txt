@@ -1,0 +1,20 @@
+Kiểm tra quyền truy cập:
+
+Đảm bảo rằng bạn có quyền đọc file trong thư mục chia sẻ và trong thư mục của người dùng.
+Sử dụng lệnh ls -l để kiểm tra quyền truy cập và chắc chắn rằng người chạy chương trình có đủ quyền để đọc file.
+Kiểm tra đường dẫn đầy đủ:
+
+Đảm bảo rằng bạn đang sử dụng đường dẫn đầy đủ và chính xác đến file. Có thể sử dụng lệnh realpath để xem đường dẫn đầy đủ.
+Kiểm tra kích thước và nội dung của file:
+
+Sử dụng lệnh ls -l hoặc cat để xem kích thước và nội dung của file. Đôi khi, file có thể là một symbolic link hoặc có kích thước là 0, điều này có thể gây ra sự nhầm lẫn.
+Kiểm tra xem file có bị khoá hoặc đang sử dụng không:
+
+Sử dụng lệnh lsof để xem xem file có đang được sử dụng bởi các tiến trình nào không.
+Kiểm tra lỗi khi mở file:
+
+Trong mã nguồn của bạn, kiểm tra lỗi khi mở file bằng cách kiểm tra giá trị trả về từ fopen. Nếu fopen trả về NULL, bạn có thể sử dụng perror để in ra thông điệp lỗi.
+Kiểm tra xem file có ký tự đặc biệt không:
+
+Đôi khi, file có tên chứa các ký tự đặc biệt, điều này có thể tạo ra sự nhầm lẫn. Sử dụng ls với tùy chọn -b để xem tên file dưới dạng các ký tự đặc biệt.
+Kiểm tra những điều trên có thể giúp bạn xác định vấn đề và sửa chữa lỗi "không tồn tại". Nếu bạn gặp vấn đề cụ thể nào đó, hãy chia sẻ thêm thông tin để tôi có thể cung cấp sự giúp đỡ chi tiết hơn.
